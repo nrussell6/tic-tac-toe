@@ -17,3 +17,18 @@ table{
 	border: 5px solid black;
 	display: center;
 }
+
+.scoreboard{
+	height: 3em;
+}
+
+.switch{
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 34px;
+}
+
+.emptySpace{
+	width: 300px;
+}
