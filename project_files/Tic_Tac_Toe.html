@@ -10,19 +10,41 @@
 	<body>
 
 		<!-- Workspace -->
-		<button class="resetButton">Game Reset!</button><!-- Resets the game board -->
+		<table>
+			<td><button class="resetButton">Game Reset!</button></td><!-- Resets the game board -->
+			<td class="emptySpace"></td>
+			<td class="currentTurnIndicator"></td>
+		</table>
 		<!-- Makes the game board-->
 		<div class="gameboard">
 			<table class="table">
+				<tr class="scoreboard">
+					<td><h1>SCORE:</h1></td>
+					<td class="xWin"><h1>X: 0</h1></td>
+					<td class="oWin"><h1>O: 0</h1></td>
+					<td><h1>Enable AI</h1></td>
+					
+					
+				</tr>
 				<tr>
 					<td class = "button1 space"> </td>
 					<td class = "button2 space"> </td>
 					<td class = "button3 space"> </td>
+					<td>
+						<h1>X: 
+							<input type="checkbox" class="xAI switch" value=false></input>
+						</h1>
+					</td>
 				</tr>
 				<tr>
 					<td class = "button4 space"></td>
 					<td class = "button5 space"></td>
 					<td class = "button6 space"></td>
+					<td>
+						<h1>O: 
+							<input type="checkbox" class="oAI switch"></input>
+						</h1>
+					</td>
 				</tr>
 				<tr>
 					<td class = "button7 space"></td>
