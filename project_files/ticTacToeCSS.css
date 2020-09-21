@@ -3,6 +3,19 @@ table{
 	table-layout: fixed;
 }
 
+.explanation{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    border: solid black;
+}
+
+label{
+    font-weight: bolder;
+    font-style: italic;    
+}
+
 .space{
 	height: 10em;
 	width: 10em;
