@@ -29,6 +29,7 @@ label{
 	width: 10em;
 	border: 5px solid black;
 	display: center;
+	font-size: 1.5em;
 }
 
 .scoreboard{
@@ -44,4 +45,12 @@ label{
 
 .emptySpace{
 	width: 300px;
+}
+
+html{
+	font-size: x-large;
+}
+input.checkbox{
+	width: 2em;
+	height: 2em;
 }
